@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Index - Nova Bootstrap Template</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet" />
+
+  <!-- =======================================================
+  * Template Name: Nova
+  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">MM&R</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="index.html" class="active">Home<br /></a>
+          </li>
+          <li><a href="chi-siamo.html">Chi Siamo</a></li>
+          <li><a href="il-nostro-metodo.html">Il Nostro Metodo</a></li>
+          <!--           <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="blog.html">Blog</a></li> -->
+          <li class="dropdown">
+            <a href="#"><span>Soluzioni</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown">
+                <a href="#"><span>Deep Dropdown</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contatti</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Hero Section -->
+
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/home-.png" alt="img-home" data-aos="fade-in" />
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4">
+            <h1 data-aos="fade-up">Web Design</h1>
+            <blockquote data-aos="fade-up" data-aos-delay="100">
+              <p>Soluzioni Professionali per il Web Design</p>
+            </blockquote>
+         </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/head2.png" alt="" />
+          </div>
+
+          <div class="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "centeredSlides": true,
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    },
+                    "navigation": {
+                      "nextEl": ".swiper-button-next",
+                      "prevEl": ".swiper-button-prev"
+                    }
+                  }
+                </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Siti web su misura per aziende che vogliono distinguersi.</h3>
+                    <h4 class="mb-3">
+                      Aiutiamo le aziende a connettersi con le persone attraverso design funzionali ed emozionanti
+                    </h4>
+                    <p>
+                      Grazie a un team di esperti qualificati e con una comprovata esperienza nel settore, siamo pronti
+                      a supportare le vostre esigenze aziendali con professionalità e dedizione.
+                    </p>
+                  </div>
+                </div>
+                <!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Creiamo siti web unici che riflettono l'identità aziendale.
+
+                    </h3>
+                    <h4 class="mb-3">
+                      Offriamo soluzioni innovative e scalabili, con un focus su design moderno e performance ottimali.
+                    </h4>
+                    <p>
+                      Attraverso design personalizzati, tecnologie all'avanguardia e un approccio orientato ai
+                      risultati, aiutiamo i nostri clienti a trasformare le loro idee in esperienze digitali di
+                      successo.
+                    </p>
+                  </div>
+                </div>
+                <!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Prestiamo attenzione ai dettagli per garantire risultati eccellenti.</h3>
+                    <h4 class="mb-3">
+                      Per noi, i dettagli fanno la differenza.
+                    </h4>
+                    <p>
+                      Ogni progetto inizia con una pianificazione precisa e un concept ben definito per assicurare
+                      risultati di alto livello. Ogni fase del lavoro, dalla progettazione al lancio finale, viene
+                      curata con massima attenzione.
+                    </p>
+                  </div>
+                </div>
+                <!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">
+                      Costruiamo relazioni durature offrendo supporto e aggiornamenti.
+                    </h3>
+                    <h4 class="mb-3">
+                      Non ci fermiamo al lancio del sito: il nostro impegno continua con un supporto costante.
+                    </h4>
+                    <p>
+                      Creiamo relazioni solide con i nostri clienti, offrendo aggiornamenti, migliorie e consulenza
+                      personalizzata per affrontare le nuove sfide del mercato. Il nostro obiettivo è costruire
+                      partnership basate sulla fiducia e sui risultati concreti.
+                    </p>
+                  </div>
+                </div>
+                <!-- End slide item -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Why Us Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Cosa Facciamo</h2>
+        <p>
+          Attraverso design personalizzati, tecnologie all'avanguardia e un approccio orientato ai risultati, aiutiamo i
+          nostri clienti a trasformare le loro idee in esperienze digitali di successo.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0">
+              <i class="fa-solid fa-cubes align-middle" style="color: #f57813"></i>
+            </div>
+            <div>
+              <h4 class="title">Siti Aziendali</h4>
+              <p class="description">
+                Creiamo piattaforme intuitive e performanti che combinano design accattivante, funzionalità avanzate e
+                ottimizzazione SEO.
+              </p>
+              <a href="#" class="readmore stretched-link"><span>Leggi Tutto</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0">
+              <i class="fa-solid fa-user-tie align-middle" style="color: #15a04a"></i>
+            </div>
+            <div>
+              <h4 class="title">Professionisti</h4>
+              <p class="description">
+                Creiamo siti web dedicati ai professionisti che vogliono comunicare competenza, affidabilità e unicità.
+              </p>
+              <a href="#" class="readmore stretched-link"><span>Leggi Tutto</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0">
+              <i class="fa-solid fa-plane align-middle" style="color: #d90769"></i>
+            </div>
+            <div>
+              <h4 class="title">Landing Page</h4>
+              <p class="description">
+                Creiamo landing page strategiche e ad alto impatto, progettate per catturare l’attenzione, guidare
+                l’utente e generare conversioni
+              </p>
+              <a href="#" class="readmore stretched-link"><span>Leggi Tutto</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0">
+              <i class="fa-solid fa-store align-middle" style="color: #15bfbc"></i>
+            </div>
+            <div>
+              <h4 class="title">Siti Vetrina</h4>
+              <p class="description">
+                Con un design moderno e contenuti strategici, il nostro obiettivo è conquistare i tuoi visitatori al
+                primo sguardo
+              </p>
+              <a href="#" class="readmore stretched-link"><span>Leggi Tutto</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0">
+              <i class="fa-regular fa-newspaper align-middle" style="color: #f5cf13"></i>
+            </div>
+            <div>
+              <h4 class="title">Blog e Magazine</h4>
+              <p class="description">
+                Con un mix di articoli, interviste e guide pratiche, vogliamo creare uno spazio digitale dove
+                informazione e creatività si incontrano
+              </p>
+              <a href="#" class="readmore stretched-link"><span>Leggi Tutto</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0">
+              <i class="fa-brands fa-cc-mastercard align-middle" style="color: #1335f5"></i>
+            </div>
+            <div>
+              <h4 class="title">Ecommerce</h4>
+              <p class="description">
+                Ogni ordine è gestito con cura per creare fiducia e valore, trasformando ogni visita in un’esperienza
+                positiva
+              </p>
+              <a href="#" class="readmore stretched-link"><span>Leggi Tutto</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+        </div>
+      </div>
+    </section>
+    <!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+      <img src="assets/img/Call-to.jpg" alt="" />
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Contattaci Ora</h3>
+              <p>
+                Con il nostro supporto, non ti limiterai a seguire i trend: li anticiperai!
+              </p>
+              <a class="cta-btn" href="#">Scopri di Più</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Call To Action Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="mb-0">Reattivo, Bello e </h3>
+            <h3>Realizzato per Stupire!</h3>
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-check-square-fill" style="color: #ff8b2c"></i>
+                  <span>Design pulito con un uso strategico degli spazi bianchi per far risaltare contenuti e
+                    immagini.</span>
+                </div>
+              </div>
+              <!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-check-square-fill" style="color: #5578ff"></i>
+                  <span>Utilizzo di colori accattivanti, spesso associati al brand, per attrarre l’attenzione
+                    senza sovraccaricare visivamente l’utente.</span>
+                </div>
+              </div>
+              <!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-check-square-fill" style="color: #e80368"></i>
+                  <span>Grazie alla grafica web responsive, i contenuti si adattano automaticamente a qualsiasi
+                    dispositivo.</span>
+                </div>
+              </div>
+              <!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-check-square-fill" style="color: #ffa76e"></i>
+                  <span>Scelta di font moderni e leggibili con gerarchie visive ben definite per enfatizzare titoli,
+                    testi e call-to-action.</span>
+                </div>
+              </div>
+              <!-- End Icon List Item-->
+
+            </div>
+          </div>
+          <div class="col-md-5 position-relative" data-aos="zoom-out" data-aos-delay="200">
+            <div class="phone-wrap">
+              <img src="assets/img/img-m-3.jpg" alt="Image" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="details">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <h4>Con noi sarai sempre un passo avanti<br />rispetto alla concorrenza</h4>
+              <p>
+                Offriamo soluzioni innovative, strategie personalizzate e tecnologie all’avanguardia per garantire il
+                successo della tua presenza online.
+              </p>
+              <a href="#about" class="btn-get-started">Discutiamone Insieme</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Features Section -->
+
+
+         
+
+<!-- PROGRESS BAR -->
+
+<div class="row gy-4 align-items-center features-item">
+  <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
+    <img src="assets/img/services.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
+  </div>
+  <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+    <h3 class="text-center">Le nostre competenze</h3>
+    <p class="text-center">I nostri livelli di competenza nelle varie fasi di sviluppo hanno raggiunto negli anni
+      risultati straordinari, così come riportiamo nel grafico che raccoglie il livello di gradimento dei nostri
+      clienti</p>
+
+    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0"
+      aria-valuemax="100">
+      <div class="progress-bar bg-success" style="width: 96%">Progettazione e Pianificazione 96%</div>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+      aria-valuemax="100">
+      <div class="progress-bar bg-info" style="width: 80%">Web Marketing 80%</div>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+      aria-valuemax="100">
+      <div class="progress-bar bg-warning" style="width: 97%">Assistenza e Manutenzione 97%</div>
+    </div>
+    <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+      aria-valuemax="100">
+      <div class="progress-bar bg-danger" style="width: 100%">Grafica e Design 100%</div>
+    </div>
+
+<!-- PROGRESS BAR END -->
+
+  
+      </main>
+        <footer id="footer" class="footer light-background">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Nova</span>
+            </a>
+            <p>
+              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+              nada terra videa magna derita valies darta donna mare fermentum
+              iaculis eu non diam phasellus.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p>United States</p>
+            <p class="mt-4">
+              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+            </p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center">
+      <p>
+        © <span>Copyright</span> <strong class="px-1 sitename">Nova</strong>
+        <span>All Rights Reserved</span>
+      </p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by
+        <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by
+        <a href="https://themewagon.com">ThemeWagon</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
